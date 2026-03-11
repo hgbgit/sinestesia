@@ -1,0 +1,159 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# compiled output
+/dist
+/node_modules
+.env*
+package-lock.json
+
+# DB
+/.docker/dbdata
+/prisma/.env
+!/prisma/migrations/
+!/prisma/migrations/migration_lock.toml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+src/repl.ts
+
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+WARP.md
+.cursorignore
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/load-test
+
+TODOs.txt
+
+up-db.sh
+
+# Sentry Config File
+.sentryclirc
+
+# Claude Code
+.claude/
+
+# Gemini Code
+.gemini/
+
+# InHire docs (local reference only)
+src/inhire/_docs/
+
+
+# compiled output
+/dist
+/node_modules
+.env*
+package-lock.json
+
+# DB
+/.docker/dbdata
+/prisma/.env
+!/prisma/migrations/
+!/prisma/migrations/migration_lock.toml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+src/repl.ts
+
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+WARP.md
+.cursorignore
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/load-test
+
+TODOs.txt
+
+up-db.sh
+
+# Sentry Config File
+.sentryclirc
+
+# Claude Code
+.claude/
+
+# Gemini Code
+.gemini/
+
+# InHire docs (local reference only)
+src/inhire/_docs/
+
+
