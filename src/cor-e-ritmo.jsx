@@ -189,7 +189,7 @@ export default function App() {
                     <Stream d={400} speed={4}>
                         <div className="flex flex-col items-center bg-[#181825] p-6 rounded-xl border border-[#45475A] shadow-lg h-full">
                             <div className="w-28 h-28 rounded-full border-[4px] border-[#50FA7B] overflow-hidden mb-4 shrink-0">
-                                <img src="/images/adriana.jpg" alt="Adriana" className="w-full h-full object-cover" />
+                                <img src="public/images/adriana.jpg" alt="Adriana" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-2xl text-[#F5E0DC] font-mono font-bold mb-2">Adriana Gusmão</h3>
                             <p className="text-[15px] text-[#CDD6F4] text-center leading-relaxed flex-grow">
@@ -204,7 +204,7 @@ export default function App() {
                     <Stream d={800} speed={4}>
                         <div className="flex flex-col items-center bg-[#181825] p-6 rounded-xl border border-[#45475A] shadow-lg h-full">
                             <div className="w-28 h-28 rounded-full border-[4px] border-[#FF79C6] overflow-hidden mb-4 shrink-0">
-                                <img src="/images/clara.jpg" alt="Clara" className="w-full h-full object-cover" />
+                                <img src="public/images/clara.jpg" alt="Clara" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-2xl text-[#F5E0DC] font-mono font-bold mb-2">Clara Afonso</h3>
                             <p className="text-[15px] text-[#CDD6F4] text-center leading-relaxed flex-grow">
@@ -219,7 +219,7 @@ export default function App() {
                     <Stream d={1200} speed={4}>
                         <div className="flex flex-col items-center bg-[#181825] p-6 rounded-xl border border-[#45475A] shadow-lg h-full">
                             <div className="w-28 h-28 rounded-full border-[4px] border-[#F1FA8C] overflow-hidden mb-4 shrink-0">
-                                <img src="/images/hugo.jpg" alt="Hugo" className="w-full h-full object-cover" />
+                                <img src="public/images/hugo.jpg" alt="Hugo" className="w-full h-full object-cover" />
                             </div>
                             <h3 className="text-2xl text-[#F5E0DC] font-mono font-bold mb-2">Hugo Barros</h3>
                             <p className="text-[15px] text-[#CDD6F4] text-center leading-relaxed flex-grow">
@@ -287,19 +287,19 @@ export default function App() {
                     {/* Capa */}
                     <Stream d={1000}>
                         <div className="w-fit h-fit mx-auto flex flex-col justify-center items-center rounded-xl overflow-hidden border-4 border-[#FF79C6] animate-[beat-pulse_3s_infinite_ease-in-out]">
-                            <img src="/images/capa.jpg" alt="Capa do Livro" className="h-auto w-auto max-h-[300px] max-w-full object-cover block" />
+                            <img src="public/images/capa.jpg" alt="Capa do Livro" className="h-auto w-auto max-h-[300px] max-w-full object-cover block" />
                         </div>
                     </Stream>
                     {/* Cores Primárias */}
                     <Stream d={1500}>
                         <div className="w-fit h-fit mx-auto flex flex-col justify-center items-center rounded-xl overflow-hidden border-4 border-[#8BE9FD] animate-[beat-pulse_3s_infinite_ease-in-out]">
-                            <img src="/images/cores-primarias.jpg" alt="Cores Primárias" className="h-auto w-auto max-h-[300px] max-w-full object-cover block" />
+                            <img src="public/images/cores-primarias.jpg" alt="Cores Primárias" className="h-auto w-auto max-h-[300px] max-w-full object-cover block" />
                         </div>
                     </Stream>
                     {/* Exercício Interação */}
                     <Stream d={2000}>
                         <div className="w-fit h-fit mx-auto flex flex-col justify-center items-center rounded-xl overflow-hidden border-4 border-[#F1FA8C] animate-[beat-pulse_3s_infinite_ease-in-out]">
-                            <img src="/images/interacao-quente-fria.jpg" alt="Interação Quente e Fria" className="h-auto w-auto max-h-[300px] max-w-full object-cover block" />
+                            <img src="public/images/interacao-quente-fria.jpg" alt="Interação Quente e Fria" className="h-auto w-auto max-h-[300px] max-w-full object-cover block" />
                         </div>
                     </Stream>
                 </div>
@@ -369,12 +369,12 @@ export default function App() {
                     <div className="grid grid-rows-2 gap-6 h-full">
                         <Stream d={1200}>
                             <div className="w-fit h-fit mx-auto flex flex-col justify-center items-center rounded-xl overflow-hidden border-4 border-[#8BE9FD] animate-[beat-pulse_3s_infinite_ease-in-out]">
-                                <img src="/images/sinestesia-1.jpg" alt="Print da Plataforma Sinestesia 1" className="h-auto w-auto max-h-[220px] max-w-full object-cover block" />
+                                <img src="public/images/sinestesia-1.jpg" alt="Print da Plataforma Sinestesia 1" className="h-auto w-auto max-h-[220px] max-w-full object-cover block" />
                             </div>
                         </Stream>
                         <Stream d={1800}>
                             <div className="w-fit h-fit mx-auto flex flex-col justify-center items-center rounded-xl overflow-hidden border-4 border-[#FF79C6] animate-[beat-pulse_3s_infinite_ease-in-out]" style={{ animationDelay: '1.5s' }}>
-                                <img src="/images/sinestesia-2.jpg" alt="Print da Plataforma Sinestesia 2" className="h-auto w-auto max-h-[220px] max-w-full object-cover block" />
+                                <img src="public/images/sinestesia-2.jpg" alt="Print da Plataforma Sinestesia 2" className="h-auto w-auto max-h-[220px] max-w-full object-cover block" />
                             </div>
                         </Stream>
                     </div>
